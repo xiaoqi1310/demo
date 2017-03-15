@@ -25,8 +25,8 @@ public class MongodbTest {
 		DBCollection users = db.getCollection("users");
 		
 		 /** 
-         * DBObject代表文档，这是一个接口，java中提供了多种实现，最简单的就是BasicDBObject了 
-         */  
+		  * DBObject代表文档，这是一个接口，java中提供了多种实现，最简单的就是BasicDBObject了 
+		  */  
         DBObject user = new BasicDBObject();  
         user.put("name", "jimmy");  
         user.put("age", "34");  
